@@ -1,6 +1,6 @@
 <template>
   <input
-    class="block w-full bg-slate-500 text-white text-4xl rounded-md focus:border-cyan-400 focus:ring-cyan-400 focus:bg-slate-400 focus:placeholder:text-slate-600 placeholder:text-slate-300"
+    class="block w-full bg-slate-500 text-white text-3xl rounded-md focus:border-cyan-400 focus:ring-cyan-400 focus:bg-slate-400 focus:placeholder:text-slate-600 placeholder:text-slate-300"
     :type="type"
     :value="modelValue"
     @input="updateValue"
